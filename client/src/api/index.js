@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// const url = "https://memories-full.herokuapp.com/posts";
-const url = "http://localhost:5000/posts";
+const url = "https://memories-backend-eight.vercel.app/";
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
